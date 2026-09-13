@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trizen Photo Sharing Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="dark-theme">
+
+  <div id="app">
+    <!-- Dynamic View Container -->
+    <header class="app-header">
+      <div class="header-container">
+        <div class="logo-group">
+          <div class="logo-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+              <circle cx="12" cy="13" r="4"></circle>
+            </svg>
+          </div>
+          <span class="logo-text">Trizen<span class="logo-accent">Photos</span></span>
+        </div>
+        <div id="user-nav-group" class="user-nav-group">
+          <!-- Auth state inserted via JavaScript -->
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content" class="main-content">
+      <!-- Views rendered dynamically here -->
+    </main>
+
+    <footer class="app-footer">
+      <p>&copy; 2026 TrizenAI Technologies Private Limited &bull; Full Stack Photo Sharing Platform</p>
+    </footer>
+  </div>
+
+  <!-- Global Modal Container -->
+  <div id="modal-overlay" class="modal-overlay hidden">
+    <div id="modal-container" class="modal-card">
+      <!-- Modal Content Dynamic -->
+    </div>
+  </div>
+
+  <script src="/js/api.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>

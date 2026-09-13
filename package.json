@@ -1,0 +1,20 @@
+{
+  "name": "photo-sharing-platform",
+  "version": "1.0.0",
+  "description": "Full Stack Photo Sharing Platform with PIN Protected Customer Gallery",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js",
+    "test": "node tests/run_all.js"
+  },
+  "keywords": [
+    "photo-sharing",
+    "gallery",
+    "pin-protected",
+    "sqlite"
+  ],
+  "author": "TrizenAI Candidate",
+  "license": "MIT"
+}

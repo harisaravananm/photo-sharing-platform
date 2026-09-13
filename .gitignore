@@ -1,0 +1,6 @@
+node_modules/
+photo_platform.db
+*.db
+test_results.txt
+uploads/*
+!uploads/.gitkeep
