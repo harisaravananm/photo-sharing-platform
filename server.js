@@ -751,7 +751,18 @@ const server = http.createServer(async (req, res) => {
 });
 
 if (require.main === module) {
-  server.listen(PORT, '0.0.0.0', () => {
+  try {
+    const userCount = db.prepare('SELECT COUNT(*) as cnt FROM users').get();
+    if (!userCount || userCount.cnt === 0) {
+      console.log('🌱 Empty database detected on startup. Running initial seed...');
+      const { runSeed } = require('./seed');
+      runSeed();
+    }
+  } catch (err) {
+    console.error('Auto-seed check error:', err.message);
+  }
+
+  server.listen(PORT, () => {
     console.log(`🚀 Photo Sharing Platform server running on http://localhost:${PORT}`);
   });
 }
