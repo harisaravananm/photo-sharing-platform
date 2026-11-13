@@ -1,4 +1,8 @@
-# Trizen Photo Sharing Platform 📸
+# Trizen Photo Sharing Platform ðŸ“¸
+
+<!-- tech-version-badges -->
+![Node.js 18%2B](https://img.shields.io/badge/Node.js-18%2B-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![JavaScript ES2022](https://img.shields.io/badge/JavaScript-ES2022-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white) ![SQLite 1.0](https://img.shields.io/badge/SQLite-1.0-003B57?style=for-the-badge&logo=sqlite&logoColor=white) ![PIN Protected](https://img.shields.io/badge/PIN-Protected-6C5CE7?style=for-the-badge)
+<!-- /tech-version-badges -->
 
 Full-stack, high-performance photo-sharing application built according to the **TrizenAI Technologies Software Requirement Document (SRD)**.
 
@@ -6,7 +10,7 @@ The platform enables photography and event teams to collaboratively upload high-
 
 ---
 
-## 🌟 Key Features
+## ðŸŒŸ Key Features
 
 1. **Role-Based Workflows**:
    - **Admin / Lead**: Event creation, team member assignment, photo selection, gallery publishing, PIN configuration, and live operational stats monitoring.
@@ -28,7 +32,7 @@ The platform enables photography and event teams to collaboratively upload high-
 
 ---
 
-## 🏗️ System Architecture & Database Design
+## ðŸ—ï¸ System Architecture & Database Design
 
 ```mermaid
 graph TD
@@ -56,7 +60,7 @@ graph TD
 
 ---
 
-## ⚡ Demo Credentials & Quick Test
+## âš¡ Demo Credentials & Quick Test
 
 | Role | Email | Password | Access / Notes |
 | :--- | :--- | :--- | :--- |
@@ -66,7 +70,7 @@ graph TD
 
 ---
 
-## 🛠️ Local Setup & Running Instructions
+## ðŸ› ï¸ Local Setup & Running Instructions
 
 ### Prerequisites
 - Node.js (v18+, v22+, or v24+)
@@ -85,7 +89,7 @@ The application will start on **`http://localhost:3000`** (or `http://localhost:
 
 ---
 
-## 🧪 Running Automated Tests
+## ðŸ§ª Running Automated Tests
 
 Execute the comprehensive test suite covering Authentication, Photo Object Storage, Authorization, and Customer PIN-Protected Gallery workflows:
 
@@ -100,7 +104,7 @@ node --test tests/auth.test.js tests/photos.test.js tests/gallery.test.js
 
 ---
 
-## 🚀 Environment Variables
+## ðŸš€ Environment Variables
 
 | Variable | Default Value | Description |
 | :--- | :--- | :--- |
@@ -111,7 +115,7 @@ node --test tests/auth.test.js tests/photos.test.js tests/gallery.test.js
 
 ---
 
-## 📦 Final Deliverables Summary
+## ðŸ“¦ Final Deliverables Summary
 
 - [x] Full Source Code Repository
 - [x] Pre-seeded Demo Data (`Arjun & Priya Wedding`, 1,250 photos, 600 selected for gallery)
